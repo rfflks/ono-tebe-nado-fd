@@ -10,40 +10,42 @@
     <link rel="stylesheet" href="./fonts/fonts.css">
   </head>
   <body>
-    <header>
-      <nav class="">
-        <ul class="menu">
-          <li class="li_main">
-            <a class="li_a_main" href="">главная</a>
+    <header class="header">
+      <nav class="heeader_menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link_active" href="">главная</a>
           </li>
-          <li class="li_lots">
-            <a href="">посмотреть лоты</a>
+          <li class="header__links-list-item header__links-list-item_show_lots">
+            <a href="header__link">посмотреть лоты</a>
           </li>
-          <li class="li_about">
-            <a href="">об аукционе</a>
+          <li class="header__links-list-item header__links-list-item_about">
+            <a href="header__link">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a><img class="logo_header" src="/images/logo-black.svg" alt=""></a>
-      </a>
-      <address class="contacts">
-        <p class="number">+9 999 555 5555</p>
-        <p class="mail">info@sobaka.ge</p>
-        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+      <a class="header__logo"><img class="header__logo-image" src="/images/logo-black.svg" alt=""></a>
+      <address class="address header__address">
+        <a href="tel:+99995555555" class="number">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="mail">info@sobaka.ge</a>
+        <p class="address_street">наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
-        <div class="cover_background_opacity">
-          <h1 class="cover_title">ОНО</h1>
-          <h1 class="cover_title">ТЕБЕ</h1>
-          <h1 class="cover_title">НАДО</h1>
-            <div class="description">
-             <p></p>
-             <button>
-             </button>
-            </div>
-        </div>
+        <div class="overlay">
+          <div class="cover_title">
+            <h1 class="cover__title">
+            <span class="aligned-text">оно</span>
+            <span class="aligned-text aligned-text_center">тебе</span>
+            <span class="aligned-text aligned-text_right">надо</span>
+            </h1>        
+          <div class="cover__description">
+            <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+            <button class="bet-button">сделать ставку</button>
+          </div>
+          </div> 
+        </div>     
       </section>
       <section class="lots">
         <h1></h1>
