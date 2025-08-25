@@ -1,1 +1,1 @@
-git@github.com:rfflks/ono-tebe-nado-fd.git
+https://github.com/rfflks/ono-tebe-nado-fd
