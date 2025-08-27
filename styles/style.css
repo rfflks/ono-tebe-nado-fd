@@ -292,6 +292,7 @@ text-align: right;
   grid-template-columns: 1fr 1fr 1fr;
   align-items:center;
   margin-top: 180px;
+  margin-bottom: 82px;
   font-size: 18px;
 
 }
@@ -299,7 +300,6 @@ text-align: right;
 .footer__address{
   display: flex;
   flex-direction: column;
-  justify-self: end;
   justify-self: start;
   align-items: flex-start;
   max-width:240px;
@@ -320,10 +320,6 @@ text-align: right;
   width: 240px;
 }
 
-.footer{
-  margin-bottom: 82px;
-}
-
 .footer__menu{
   justify-self: center;
 }
@@ -342,15 +338,12 @@ text-align: right;
 }
 
 .footer__social-list{
-  justify-self: end;
-}
-
-.footer__social-list{
-  display: flex;
+   display: flex;
   gap: 48px;
   padding-right: 50px;
   padding-bottom: 47px;
   list-style: none;
+  justify-self: end;
 }
 
 .footer__social-icon{
